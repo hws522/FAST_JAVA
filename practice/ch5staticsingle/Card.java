@@ -16,10 +16,11 @@ public class Card {
         return cardNumber;
     }
 
-    public void setCardNumber(int cardNumber)
-    {
-        this.cardNumber = cardNumber;
-    }
+    //public void setCardNumber(int cardNumber)
+    //{
+     //   this.cardNumber = cardNumber; 
+    //}
+    //여기서는 없어도 됨.
 
 
 }
