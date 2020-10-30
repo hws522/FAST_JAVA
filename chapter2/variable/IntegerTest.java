@@ -1,4 +1,4 @@
-package chapter2.variable;
+package Chapter2.variable;
 
 import java.util.HashMap;
 import java.util.Map;

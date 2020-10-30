@@ -1,4 +1,4 @@
-package chapter2.variable;
+package Chapter2.variable;
 
 public class BinaryTest {
     public static void main(String[] args) {
