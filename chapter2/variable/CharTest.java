@@ -1,4 +1,4 @@
-package chapter2.variable;
+package Chapter2.variable;
 
 public class CharTest {
     public static void main(String[] args){
