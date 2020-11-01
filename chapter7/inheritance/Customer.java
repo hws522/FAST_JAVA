@@ -2,9 +2,9 @@ package chapter7.inheritance;
 
 public class Customer {
     
-    private int customerID;
-    private String customerName;
-    private String customerGrade;
+    protected int customerID; //private 는 상속되더라도 기능을 쓸 수 없음. 하위클래스는 기능은 쓸 수 있는 protected 를 쓴다.
+    protected String customerName;
+    protected String customerGrade;
     int bonusPoint;
     double bonusRatio;
 
