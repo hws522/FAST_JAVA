@@ -1,5 +1,7 @@
 package chapter7.polymorphism;
 
+import java.util.ArrayList;
+
 class Animal { // 오버라이딩.
     public void move() {
         System.out.println("동물이 움직입니다.");
@@ -31,10 +33,19 @@ public class AnimalTest {
         Animal tAnimal = new Tiger();
         Animal eAnimal = new Eagle();
 
-        AnimalTest test = new AnimalTest();
-        test.moveAnimal(hAnimal);
-        test.moveAnimal(tAnimal);
-        test.moveAnimal(eAnimal);
+        // AnimalTest test = new AnimalTest();
+        // test.moveAnimal(hAnimal);
+        // test.moveAnimal(tAnimal);
+        // test.moveAnimal(eAnimal);
+
+        ArrayList<Animal> animalList = new ArrayList<Animal>(); // ArrayList add.
+        animalList.add(hAnimal);
+        animalList.add(tAnimal);
+        animalList.add(eAnimal);
+
+        for (Animal animal : animalList) {
+            animal.move();
+        }
     }
 
     public void moveAnimal(Animal animal) { // 다형성. 하나의 코드가 여러자료형이 구현이 되어 다른 실행이 이루어짐.
