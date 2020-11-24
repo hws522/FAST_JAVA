@@ -18,4 +18,9 @@ public class VIPCustomer extends Customer { // 기본 customer 기능들이 중�
         salesRatio = 0.1;
     }
 
+    public int calcPrice(int price) // 오버라이딩.
+    {
+        bonusPoint += price * bonusRatio;
+        return price - (int) (price * salesRatio);
+    }
 }

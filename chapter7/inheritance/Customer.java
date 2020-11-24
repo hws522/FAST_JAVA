@@ -17,6 +17,8 @@ public class Customer {
     public Customer(int customerID, String customerName) {
         this.customerID = customerID;
         this.customerName = customerName;
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
     }
 
     public int calcPrice(int price) // 가격계산. 돈을 받았을 때 지불할 금액을 반환.
