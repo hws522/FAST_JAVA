@@ -1,4 +1,4 @@
-package chaper10.object;
+package chapter10.object;
 
 class Book implements Cloneable {
     String title;
