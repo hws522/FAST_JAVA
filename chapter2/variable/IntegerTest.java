@@ -1,7 +1,4 @@
-package Chapter2.variable;
-
-import java.util.HashMap;
-import java.util.Map;
+package chapter2.variable;
 
 public class IntegerTest {
     public static void main(String[] args)
